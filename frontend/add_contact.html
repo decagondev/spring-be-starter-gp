@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Contact</title>
+</head>
+<body>
+    <div class="container">
+        <header className="ui main">
+            <div className="ui fixed menu">
+                <div className="ui container center">
+                    <h2>Add Contact</h2>
+                </div>
+            </div>
+        </header>
+        <form className="ui form" onSubmit={add}>
+        <div className="field">
+                <label>Name</label>
+                <input 
+                    type="text" 
+                    name="name"
+                    placeholder="Name" />
+            </div>
+        <div className="field">
+            <label>Email</label>
+            <input 
+                type="text" 
+                name="Email"
+                placeholder="Email" />
+        </div>
+        <button className="ui button blue">Add</button>
+        </form>
+    </div>
+    
+</body>
+</html>
