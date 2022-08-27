@@ -9,7 +9,7 @@
 
 ## Phase 1 - HTML Structure
 
-## Phase 2 - Link CSS and Styles
+## Phase 2 - CSS and Styles
 
 ## Phase 3 - JavaScript Ahoy!
 
