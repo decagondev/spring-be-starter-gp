@@ -1,0 +1,55 @@
+.main {
+    margin-top: 5em;
+}
+
+h2 {
+    text-align: center;
+}
+  
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.item {
+    padding: 15px 0px !important;
+}
+
+.image {
+    border: 2px solid gray;
+    border-radius: 1em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: 10px 5px;
+}
+
+li {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    margin: 0 auto;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    width: 400px;
+    border-radius: 2em;
+}
+
+  
